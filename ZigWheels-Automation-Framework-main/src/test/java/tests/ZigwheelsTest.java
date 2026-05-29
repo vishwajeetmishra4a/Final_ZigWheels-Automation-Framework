@@ -99,6 +99,8 @@ public class ZigwheelsTest extends BaseTest {
 
         electricPage.gotoPage();
         electricPage.searchEVBike();
+        electricPage.openFirstEBike();
+        electricPage.printingEBikeDetails();
 
         ScreenshotUtil.capture(driver, "ElectricBike");
     }
